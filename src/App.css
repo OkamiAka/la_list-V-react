@@ -4,7 +4,22 @@
   padding: 2rem;
   text-align: center;
 }
-
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.utilisateur {
+  width: 70%;
+}
+.utilisateur img {
+  width: 100%;
+}
+@media (orientation: landscape) {
+  .utilisateur {
+    width: calc(100% / 6);
+  }
+}
 .logo {
   height: 6em;
   padding: 1.5em;
